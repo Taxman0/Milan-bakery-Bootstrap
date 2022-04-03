@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*------------------------------------------------HEADER-----------------------------------------------*/
+.header_logo{
+    background-image: url("./images/logo.jpg");
+    background-size : 150px 150px;
+    background-repeat: no-repeat;
+    height : 20vh;
+    background-position: center;
+}
+
+/*----------------------------------------------------NAV----------------------------------------------*/
+.bg-light {
+    background-color: white;
+    --bs-bg-opacity: 0;
+}
+
+.container-fluid{
+    width: auto;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #8ad3d2;
+    color: white;
+    padding: 0.5rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #fbb4bf;
+    padding: 0.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+
+
+
+/*-----------------------------------------------MAIN INDEX-------------------------------------------------------*/
+
+.main_map1{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    border: solid 1px;
+}
+.main_map2{
+    width: 100%;
+    height: 100%;
+}
+
+.main_fechas{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    border: solid 1px;
+}
+.main_fechas1{
+    width: 100%;
+    height: 100%;
+}
+
+.main_historia{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    border: solid 1px;
+}
+.main_historia1{
+    width: 100%;
+    height: 100%;
+}
+
+.section_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+/*--------------------------------------------MAIN PRODUCTOS----------------------------------*/
+.main_productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 140px;
+    align-items: center;
+}
+
+.productos_macarons{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: solid 2px;
+}
+.image_macarons{
+    width: 100%;
+    height: 100%;
+}
+
+.productos_tortas{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+.image_tortas{
+    width: 100%;
+    height: 100%;
+}
+
+
+.productos_desayunos{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+.image_desayuno{
+    width: 100%;
+    height: 100%;
+}
+
+.productos_fechas{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+.image_fechas{
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------------------------------MAIN COMO COMPRAR-----------------------------------*/
+
+.main_comocomprar{
+    display: flex;
+    justify-content: space-between;
+}
+.como_instrucciones{
+    text-align: center;
+    padding: 10px;
+}
+.como_donde{
+    border: solid 1px coral;
+    text-decoration: double;
+    padding: 10px;
+}
+.como_cuando{
+    color: #8ad3d2;
+    text-transform: lowercase;
+    padding: 20px;
+    text-justify: newspaper;
+}
+
+
+/*------------------------------MAIN CONTACTO----------------------------------*/
+
+.main_contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.columna1{
+    width: 40vw;
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.columna1-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link-contacto{
+    text-decoration: none;
+}
+
+
+.columna2{
+    width: 40vw;
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.form-title{
+    width: 100%;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-color: #fbb4bf;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.btn:hover{
+    background: #8ad3d2;
+}
+
+
+
+/*------------------------------AGREGAR LOS MAINS QUE FALTAN----------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------------------------FOOTER------------------------------------------*/
+
+.container{
+    max-width: 100%;
+}
+
+.col{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.col_footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.footer_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_image{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: end;
+}
+
+.imagen{
+    max-height: 100%;
+    max-width: auto;
+}
